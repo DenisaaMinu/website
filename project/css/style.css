@@ -1,0 +1,745 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+@media screen and (min-width: 769px) {
+    
+    .nav1{
+        margin-right: 0px;
+    }
+
+nav{
+    min-width: 100%;
+    position: absolute;
+    display: flex;
+}
+
+nav a {
+    font-size: 14px;
+    color:black;
+    margin-top: auto;
+    margin-left: 20px;
+    font-family: 'Rambla';
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav a.current-page {
+    text-decoration: underline; /* Underline for the current page */
+}
+
+header, footer {
+    background-color: #BACBD9;
+    height: 60px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img{
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+footer p{
+    margin: 23px;
+}
+
+.logo{
+    width: 40px;
+    height: 30px;
+    margin-top: 25%;
+}
+
+.header-image{
+    object-fit: cover;
+    min-width: 100%;
+    height: 300px;
+    margin-top:0.4cm;
+}
+
+section,article {
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin: 20px;
+}
+
+li{
+    text-indent: 5px;
+    margin: 20px;
+}
+
+.home-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Rambla';
+}
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Rambla';
+}
+
+.subheading{
+    text-align: center;
+    margin-bottom: -40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.features a{
+    text-decoration: none;
+}
+
+.features a:hover, .features a:active {
+    text-decoration: underline;
+}
+
+.features a{
+    background-color:#90ee90;
+    padding: 10px;
+    width: fit-content;
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.home{
+    padding: 20px;
+}
+
+.home h3{
+     margin-top: 40px;
+     margin-bottom: 20px;
+} 
+
+.features p{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/*Schools */
+.schools{
+    padding: 20px;
+}
+
+.image-container1,.image-container2  {
+    display: flex;
+    align-items: flex-start;  
+}
+
+.left-image-education,.bottom-image-education{
+    position: relative;
+    margin-top: 30px;
+    margin: -10px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #3C8C03;
+    padding: 5px;
+    max-width: 50vw;
+}
+
+.text1,.text2{
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.text-ROC,.text-gifted{
+    margin-top: 10px;
+}
+
+
+/*Parks*/
+.parks{
+    padding: 20px;
+}
+
+.image1,.image2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left-image1-parks,.left-image2-parks{
+    object-fit: cover;
+    float:left;
+    max-width: 50%;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: -20px;
+    margin-bottom: 30px;
+    height: 30vw;
+    border-style: double;
+    border-width: 5px;
+    border-color: #BACBD9;
+    padding: 5px;
+}
+
+.right-image1-parks,.right-image2-parks{
+    object-fit: cover;
+    float:right;
+    max-width: 50%;  
+    margin-left: -20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-right: -90px;
+    height: 30vw;
+    border-style: double;
+    border-width: 5px;
+    border-color: #3C8C03;
+    padding: 5px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+/*Moskee*/
+.moskee{
+    padding: 20px;
+}
+
+.right-image-moskee{
+    float: right;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #3C8C03;
+    padding: 5px;
+}
+
+.text2-moskee{
+    margin-top:120px;
+    padding: 5px;
+}
+
+.text4-moskee{
+    margin-top: 400px;
+    margin-right: 25px;
+    margin-bottom: 420px;
+    position: relative;
+} 
+
+.left-image-moskee{
+    position: static;
+    float: left;
+    margin-right: 60px;
+    margin-top: 230px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #BACBD9;
+    padding: 5px;
+}
+
+/*Navigating*/
+.navigating{
+    padding: 20px;
+}
+
+.right-image1-navigating,.right-image2-navigating{
+    float: right;
+    border-style: double;
+    border-width: 5px;
+    border-color: #3C8C03;
+    padding: 5px;
+}
+
+.image-content1-navigating,.image-content2-navigating{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.content1-navigating,.content2-navigating{
+    display: flex;
+    flex-direction: row;
+}
+
+.text2-navigating{
+    margin-top: 100px;
+}
+
+.text3-navigating{
+    margin-top: 50px;
+}
+
+.bottom-image3-navigating{
+    object-fit: cover;
+    border-style: double;
+    border-width: 5px;
+    border-color: #3C8C03;
+    padding: 5px;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+
+/*Contact*/
+form,.submit{
+    line-height: 20px;
+    background-color:  rgba(186, 203, 217, 0.4);
+    border: solid black 1px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 25px auto ;
+    padding: 20px;
+}
+
+form section{
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin: 50px auto -40px;
+    max-width: 370px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading h2{
+    margin: -20px auto -30px;
+}
+
+.contact-heading p {
+    margin: 50px auto;
+    font-style: oblique;
+}
+
+.title-options {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter; 
+}
+
+.title-options section {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px; 
+    margin-top: auto;
+    margin-bottom: -15px;
+}
+
+.title-options section input{
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    padding: 2px 36px;
+}
+
+input[type="text"][name="message"] {
+    height: 100px; 
+    line-height: 1.5;
+}
+
+.submit-button{
+    background-color: #05AFF2;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px 120px;
+}
+.submit{
+    margin-top: 120px;
+    margin-bottom: 170px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+
+.home,.schools,.parks,.navigating,.contact,.submit{
+    padding: 0px;
+}
+
+nav{
+    min-width: 100%;
+    position: absolute;
+    display: flex;
+    background-color: #BACBD9;
+    height: 40px;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 8px;   
+}
+
+.nav1{
+    margin-top: -30px;
+}
+
+.nav2{
+    margin-top: -10px;
+}
+
+.nav1 a{
+    margin-right: 90px;
+    margin-left: 30px;
+}
+
+.nav2 a{
+    margin-left: 30px;
+}
+
+a[href="education.html"]{
+    margin-right: 80px;
+}
+
+nav a {
+    font-size: 11px;
+    margin: 10px 0;
+    margin-right: 16px;
+    color:black;
+    margin-left: 20px;
+    font-family: 'Rambla';
+    text-decoration: none;
+}
+
+.logo{
+    width: 34px;
+    height: 25px;
+    margin-top: 40%;
+    margin-left: -7px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav a.current-page {
+    text-decoration: underline; /* Underline for the current page */
+}
+
+header, footer {
+    background-color: #BACBD9;
+    height: 60px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer img{
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+footer p{
+    margin: 23px;
+}
+
+.logo{
+    margin-top: 10%;
+}
+
+.header-image{
+    object-fit: cover;
+    min-width: 100%;
+    height: 300px;
+    margin-top:0.4cm;
+}
+
+section,article{
+    line-height: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin: 20px;
+}
+
+li{
+    text-indent: 5px;
+    margin: 20px;
+}
+
+.home-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Rambla';
+}
+
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Rambla';
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.subheading{
+    text-align: center;
+    margin-bottom: -40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.features a{
+    text-decoration: none;
+}
+
+.features a:hover, .features a:active {
+    text-decoration: underline;
+}
+
+.features a{
+    background-color:#90ee90;
+    padding: 10px;
+    width: fit-content;
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.home{
+    padding: 20px;
+}
+
+.home h3{
+     margin-top: 40px;
+     margin-bottom: 20px;
+} 
+
+.features p{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.cookie-message {
+    z-index: 9999;
+}
+
+    /*schools*/
+    .image-container1, .image-container2 {
+        flex-direction: column; 
+    }
+
+    .left-image-education,.bottom-image-education {
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #3C8C03;
+        width: 750px;
+        max-width: 100%;
+        height: 45vw;
+  
+    }
+
+    .text-ROC,.text-gifted {
+        margin: 10px -10px 10px;
+    }
+
+    .text1,.text2 {
+        margin: 20px 0; 
+    }
+
+    /*parks*/
+
+    .image1,.image2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0; 
+    }
+
+    .left-image1-parks{
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #BACBD9;
+        max-width: 90%;
+        height: 60vw;
+    }
+    
+    .right-image1-parks{
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #BACBD9;
+        max-width: 90%;
+        height: 60vw;
+        margin-top: 15px;
+    }
+    
+    .left-image2-parks{
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #3C8C03;
+        max-width: 100%;
+        height: 60vw;
+    }
+    
+    .right-image2-parks{
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #3C8C03;
+        max-width: 100%;
+        height: 60vw;
+        margin-top: 15px;
+    }
+
+    /*moskee*/
+    .moskee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .right-image-moskee {
+        object-fit: cover;
+        border-style: double;
+        padding: 5px;
+        border-width: 5px;
+        border-color: #BACBD9;
+        max-width: 100%;
+        height: 300px;
+        width: 600px;
+        margin: 20px 0;
+    }
+
+    .left-image-moskee {
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #3C8C03;
+        max-width: 100%;
+        height: 300px;
+        width: 600px;
+        margin: 20px 0;
+    } 
+
+    .text2-moskee,
+    .text3-moskee,
+    .text4-moskee {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    /*navigating*/
+    .content1-navigating,.content2-navigating {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right-image1-navigating,.right-image2-navigating,.bottom-image3-navigating {
+        object-fit: cover;
+        padding: 5px;
+        border-style: double;
+        border-width: 5px;
+        border-color: #3C8C03;
+        max-width: 100%;
+        height: 300px;
+        width: 800px;
+        margin: 20px 0;
+    } 
+
+    .text2-navigating,
+    .text3-navigating{
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    /*Contact*/
+form,.submit{
+    line-height: 20px;
+    background-color:  rgba(186, 203, 217, 0.4);
+    border: solid black 1px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 25px auto ;
+    padding: 20px;
+}
+
+.submit{
+    margin-top: 80px;
+    margin-bottom: 190px;
+}
+
+form section{
+   margin-top: 5px;
+   margin-bottom: 15px;
+}
+
+.contact-heading {
+    text-align: center;
+    margin: 50px auto -40px;
+    max-width: 370px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading h2{
+    margin: -20px auto -30px;
+}
+
+.contact-heading p {
+    margin: 50px auto;
+    font-style: oblique;
+}
+
+.title-options {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter; 
+}
+
+.title-options section {
+    display: flex;
+    flex-direction: row;
+    margin-left: -15px; 
+    margin-top: auto;
+    margin-bottom: -15px;
+}
+
+.title-options section input{
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    padding: 2px 36px;
+}
+
+input[type="text"][name="message"] {
+    height: 100px; 
+    line-height: 1.5;
+}
+
+.submit-button{
+    background-color: #05AFF2;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px 107px;
+}
+}
